@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/04/09 19:49:29.000.993,=C:\Users\estudante\Documents\delphi\Unit1.pas</Transaction>
+    <Transaction>2025/05/07 20:26:04.655,=C:\Users\estudante\Documents\delphi\Unit1.pas</Transaction>
+    <Transaction>2025/05/07 20:26:43.601,C:\Users\estudante\Documents\delphi\Music Store\Ufrm_principal.dfm=C:\Users\estudante\Documents\delphi\Unit1.dfm</Transaction>
+    <Transaction>2025/05/07 20:26:43.601,C:\Users\estudante\Documents\delphi\Music Store\Ufrm_principal.pas=C:\Users\estudante\Documents\delphi\Unit1.pas</Transaction>
+    <Transaction>2025/05/07 20:26:53.177,C:\Users\estudante\Documents\delphi\Music Store\musicStore.dproj=C:\Users\estudante\Documents\delphi\Project1.dproj</Transaction>
+    <Transaction>2025/05/07 20:28:26.631,=C:\Users\estudante\Documents\delphi\Music Store\Unit1.pas</Transaction>
+    <Transaction>2025/05/07 20:29:15.546,C:\Users\estudante\Documents\delphi\Music Store\UDataModule.pas=C:\Users\estudante\Documents\delphi\Music Store\Unit1.pas</Transaction>
+    <Transaction>2025/05/07 20:29:15.546,C:\Users\estudante\Documents\delphi\Music Store\UDataModule.dfm=C:\Users\estudante\Documents\delphi\Music Store\Unit1.dfm</Transaction>
+    <Transaction>2025/05/07 20:33:26.537,=C:\Users\estudante\Documents\delphi\Music Store\Unit2.pas</Transaction>
+    <Transaction>2025/05/07 20:34:02.858,C:\Users\estudante\Documents\delphi\Music Store\Ufrmalbuns.dfm=C:\Users\estudante\Documents\delphi\Music Store\Unit2.dfm</Transaction>
+    <Transaction>2025/05/07 20:34:02.858,C:\Users\estudante\Documents\delphi\Music Store\Ufrmalbuns.pas=C:\Users\estudante\Documents\delphi\Music Store\Unit2.pas</Transaction>
+    <Transaction>2025/05/07 21:21:45.585,=C:\Users\estudante\Documents\delphi\Music Store\Unit2.pas</Transaction>
+    <Transaction>2025/05/07 21:22:14.221,C:\Users\estudante\Documents\delphi\Music Store\UfrmArtista.pas=C:\Users\estudante\Documents\delphi\Music Store\Unit2.pas</Transaction>
+    <Transaction>2025/05/07 21:22:14.221,C:\Users\estudante\Documents\delphi\Music Store\UfrmArtista.dfm=C:\Users\estudante\Documents\delphi\Music Store\Unit2.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

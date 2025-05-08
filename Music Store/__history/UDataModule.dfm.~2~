@@ -1,0 +1,27 @@
+object DataModule1: TDataModule1
+  Height = 480
+  Width = 640
+  object FDTable1: TFDTable
+    Active = True
+    IndexFieldNames = 'AlbumId'
+    Connection = FDConnection1
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'albums'
+    Left = 176
+    Top = 64
+  end
+  object DataSource1: TDataSource
+    DataSet = FDTable1
+    Left = 240
+    Top = 64
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'DriverID=SQLite'
+      'Database=C:\delphi\chinook.db'
+      'LockingMode=Normal')
+    Connected = True
+    Left = 320
+    Top = 64
+  end
+end
