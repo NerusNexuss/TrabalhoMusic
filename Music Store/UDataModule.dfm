@@ -54,4 +54,18 @@ object DataModule1: TDataModule1
     Left = 24
     Top = 192
   end
+  object FDGeneros: TFDTable
+    Active = True
+    IndexFieldNames = 'GenreId'
+    Connection = FDConnection
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'genres'
+    Left = 24
+    Top = 264
+  end
+  object DSGeneros: TDataSource
+    DataSet = FDGeneros
+    Left = 112
+    Top = 264
+  end
 end

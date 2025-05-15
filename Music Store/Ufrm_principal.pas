@@ -13,7 +13,10 @@ type
     Clientes1: TMenuItem;
     Albuls1: TMenuItem;
     Artistas1: TMenuItem;
+    Genero1: TMenuItem;
     procedure Albuls1Click(Sender: TObject);
+    procedure Artistas1Click(Sender: TObject);
+    procedure Genero1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -27,11 +30,21 @@ implementation
 
 {$R *.dfm}
 
-uses Ufrmalbuns;
+uses Ufrmalbuns, UfrmArtista, Ufrm_genero;
 
 procedure TForm1.Albuls1Click(Sender: TObject);
 begin
   FrmAlbuns.ShowModal;
+end;
+
+procedure TForm1.Artistas1Click(Sender: TObject);
+begin
+ FrmArtista.ShowModal;
+end;
+
+procedure TForm1.Genero1Click(Sender: TObject);
+begin
+  FrmGenero.ShowModal;
 end;
 
 end.

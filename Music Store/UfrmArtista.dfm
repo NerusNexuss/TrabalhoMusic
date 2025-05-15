@@ -55,7 +55,7 @@ object FrmArtista: TFrmArtista
     Left = 40
     Top = 45
     Width = 169
-    Height = 36
+    Height = 23
     DataField = 'Name'
     DataSource = DataModule1.DSArtistas
     TabOrder = 1

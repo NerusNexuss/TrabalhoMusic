@@ -20,6 +20,8 @@ type
     DSArtistas: TDataSource;
     DSTracks: TDataSource;
     FDTableTracks: TFDTable;
+    FDGeneros: TFDTable;
+    DSGeneros: TDataSource;
   private
     { Private declarations }
   public

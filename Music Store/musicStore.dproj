@@ -137,6 +137,10 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="UfrmArtista.pas">
+            <Form>FrmArtista</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Ufrm_genero.pas">
             <Form>Form2</Form>
             <FormType>dfm</FormType>
         </DCCReference>

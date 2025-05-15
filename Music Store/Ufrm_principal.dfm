@@ -26,6 +26,11 @@ object Form1: TForm1
       end
       object Artistas1: TMenuItem
         Caption = 'Artistas'
+        OnClick = Artistas1Click
+      end
+      object Genero1: TMenuItem
+        Caption = 'Genero'
+        OnClick = Genero1Click
       end
     end
   end
