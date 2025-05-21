@@ -17,10 +17,11 @@ object DataModule1: TDataModule1
   end
   object FDConnection: TFDConnection
     Params.Strings = (
-      'DriverID=SQLite'
-      'Database=C:\delphi\chinook.db'
-      'LockingMode=Normal')
+      'Database=C:\chinook.db'
+      'LockingMode=Normal'
+      'DriverID=SQLite')
     Connected = True
+    LoginPrompt = False
     Left = 576
     Top = 24
   end

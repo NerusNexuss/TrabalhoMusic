@@ -44,7 +44,7 @@ end;
 
 procedure TForm1.Genero1Click(Sender: TObject);
 begin
-  FrmGenero.ShowModal;
+   FrmGenero.ShowModal;
 end;
 
 end.

@@ -4,15 +4,14 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.Grids, Vcl.DBGrids,
-  Vcl.StdCtrls, Vcl.Mask, Vcl.ExtCtrls, Vcl.DBCtrls, Vcl.Buttons;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Mask, Vcl.ExtCtrls,
+  Vcl.DBCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids, Vcl.Buttons;
 
 type
-  TFrmGenero = class(TForm)
-    DBGrid1: TDBGrid;
+  TForm2 = class(TForm)
     DBEdit1: TDBEdit;
+    DBGrid1: TDBGrid;
     DBNavigator1: TDBNavigator;
-    Label1: TLabel;
   private
     { Private declarations }
   public
@@ -20,12 +19,12 @@ type
   end;
 
 var
-  FrmGenero: TFrmGenero;
+  Form2: TForm2;
 
 implementation
 
 {$R *.dfm}
 
-uses UDataModule;
+uses UDataModule, Ufrm_principal;
 
 end.

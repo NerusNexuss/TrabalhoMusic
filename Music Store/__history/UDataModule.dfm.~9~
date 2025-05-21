@@ -1,0 +1,71 @@
+object DataModule1: TDataModule1
+  Height = 480
+  Width = 640
+  object FDTableAlbum: TFDTable
+    Active = True
+    IndexFieldNames = 'AlbumId'
+    Connection = FDConnection
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'albums'
+    Left = 24
+    Top = 24
+  end
+  object DSAlbum: TDataSource
+    DataSet = FDTableAlbum
+    Left = 104
+    Top = 24
+  end
+  object FDConnection: TFDConnection
+    Params.Strings = (
+      'Database=C:\chinook.db'
+      'LockingMode=Normal'
+      'DriverID=SQLite')
+    Connected = True
+    Left = 576
+    Top = 24
+  end
+  object FDTableArtista: TFDTable
+    Active = True
+    IndexFieldNames = 'ArtistId'
+    Connection = FDConnection
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'artists'
+    Left = 24
+    Top = 96
+  end
+  object DSArtistas: TDataSource
+    DataSet = FDTableArtista
+    Left = 112
+    Top = 96
+  end
+  object DSTracks: TDataSource
+    DataSet = FDTableTracks
+    Left = 112
+    Top = 192
+  end
+  object FDTableTracks: TFDTable
+    Active = True
+    IndexFieldNames = 'AlbumId'
+    MasterSource = DSAlbum
+    MasterFields = 'AlbumId'
+    Connection = FDConnection
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'tracks'
+    Left = 24
+    Top = 192
+  end
+  object FDGeneros: TFDTable
+    Active = True
+    IndexFieldNames = 'GenreId'
+    Connection = FDConnection
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'genres'
+    Left = 24
+    Top = 264
+  end
+  object DSGeneros: TDataSource
+    DataSet = FDGeneros
+    Left = 112
+    Top = 264
+  end
+end
