@@ -12,6 +12,7 @@ type
     DBEdit1: TDBEdit;
     DBGrid1: TDBGrid;
     DBNavigator1: TDBNavigator;
+    Label1: TLabel;
   private
     { Private declarations }
   public

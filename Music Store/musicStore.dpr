@@ -6,7 +6,8 @@ uses
   UDataModule in 'UDataModule.pas' {DataModule1: TDataModule},
   Ufrmalbuns in 'Ufrmalbuns.pas' {FrmAlbuns},
   UfrmArtista in 'UfrmArtista.pas' {FrmArtista},
-  UfrmGenero in 'Ufrmgenero.pas' {FrmGenero};
+  Ufrmgenero in 'Ufrmgenero.pas' {FrmGenero},
+  UfrmTipoMidia in 'UfrmTipoMidia.pas' {Form2};
 
 {$R *.res}
 
@@ -18,5 +19,6 @@ begin
   Application.CreateForm(TFrmAlbuns, FrmAlbuns);
   Application.CreateForm(TFrmArtista, FrmArtista);
   Application.CreateForm(TFrmGenero, FrmGenero);
+  Application.CreateForm(TForm2, Form2);
   Application.Run;
 end.

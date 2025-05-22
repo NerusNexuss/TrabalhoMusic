@@ -2,7 +2,6 @@ object DataModule1: TDataModule1
   Height = 480
   Width = 640
   object FDTableAlbum: TFDTable
-    Active = True
     IndexFieldNames = 'AlbumId'
     Connection = FDConnection
     ResourceOptions.AssignedValues = [rvEscapeExpand]
@@ -17,7 +16,9 @@ object DataModule1: TDataModule1
   end
   object FDConnection: TFDConnection
     Params.Strings = (
-      'Database=C:\Program Files\banco de dados\chinook.db'
+      
+        'Database=C:\Users\Nerus\Documents\GitHub\TrabalhoMusic\chinook.d' +
+        'b'
       'LockingMode=Normal'
       'DriverID=SQLite')
     Connected = True
@@ -25,7 +26,6 @@ object DataModule1: TDataModule1
     Top = 24
   end
   object FDTableArtista: TFDTable
-    Active = True
     IndexFieldNames = 'ArtistId'
     Connection = FDConnection
     ResourceOptions.AssignedValues = [rvEscapeExpand]
@@ -44,7 +44,6 @@ object DataModule1: TDataModule1
     Top = 192
   end
   object FDTableTracks: TFDTable
-    Active = True
     IndexFieldNames = 'AlbumId'
     MasterSource = DSAlbum
     MasterFields = 'AlbumId'
@@ -55,7 +54,6 @@ object DataModule1: TDataModule1
     Top = 192
   end
   object FDGeneros: TFDTable
-    Active = True
     IndexFieldNames = 'GenreId'
     Connection = FDConnection
     ResourceOptions.AssignedValues = [rvEscapeExpand]
@@ -67,5 +65,19 @@ object DataModule1: TDataModule1
     DataSet = FDGeneros
     Left = 112
     Top = 264
+  end
+  object DSTipoMidia: TDataSource
+    DataSet = FDTipoMidia
+    Left = 112
+    Top = 336
+  end
+  object FDTipoMidia: TFDTable
+    Active = True
+    IndexFieldNames = 'MediaTypeId'
+    Connection = FDConnection
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'media_types'
+    Left = 24
+    Top = 336
   end
 end

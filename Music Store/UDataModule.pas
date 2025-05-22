@@ -22,6 +22,8 @@ type
     FDTableTracks: TFDTable;
     FDGeneros: TFDTable;
     DSGeneros: TDataSource;
+    DSTipoMidia: TDataSource;
+    FDTipoMidia: TFDTable;
   private
     { Private declarations }
   public

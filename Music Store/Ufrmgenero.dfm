@@ -11,6 +11,19 @@ object FrmGenero: TFrmGenero
   Font.Name = 'Segoe UI'
   Font.Style = []
   TextHeight = 15
+  object Label1: TLabel
+    Left = 39
+    Top = 8
+    Width = 197
+    Height = 30
+    Caption = 'Cadastre um genero'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
   object DBEdit1: TDBEdit
     Left = 40
     Top = 48
@@ -22,7 +35,7 @@ object FrmGenero: TFrmGenero
   end
   object DBGrid1: TDBGrid
     Left = 40
-    Top = 120
+    Top = 133
     Width = 369
     Height = 169
     DataSource = DataModule1.DSGeneros
@@ -34,8 +47,8 @@ object FrmGenero: TFrmGenero
     TitleFont.Style = []
   end
   object DBNavigator1: TDBNavigator
-    Left = 40
-    Top = 295
+    Left = 39
+    Top = 308
     Width = 370
     Height = 25
     DataSource = DataModule1.DSGeneros

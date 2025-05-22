@@ -32,6 +32,10 @@ object Form1: TForm1
         Caption = 'Genero'
         OnClick = Genero1Click
       end
+      object ipoMidia1: TMenuItem
+        Caption = 'Tipo Midia'
+        OnClick = ipoMidia1Click
+      end
     end
   end
 end
