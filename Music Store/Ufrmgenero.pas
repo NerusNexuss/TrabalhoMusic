@@ -1,0 +1,29 @@
+unit UfrmGenero;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Mask, Vcl.ExtCtrls,
+  Vcl.DBCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TFrmGenero = class(TForm)
+    DBEdit1: TDBEdit;
+    DBGrid1: TDBGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmGenero: TFrmGenero;
+
+implementation
+
+{$R *.dfm}
+
+uses UDataModule, Ufrm_principal;
+
+end.
