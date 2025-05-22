@@ -12,8 +12,8 @@ object FrmGenero: TFrmGenero
   Font.Style = []
   TextHeight = 15
   object DBEdit1: TDBEdit
-    Left = 32
-    Top = 64
+    Left = 40
+    Top = 48
     Width = 121
     Height = 23
     DataField = 'Name'
@@ -21,10 +21,10 @@ object FrmGenero: TFrmGenero
     TabOrder = 0
   end
   object DBGrid1: TDBGrid
-    Left = 32
-    Top = 160
-    Width = 320
-    Height = 120
+    Left = 40
+    Top = 120
+    Width = 369
+    Height = 169
     DataSource = DataModule1.DSGeneros
     TabOrder = 1
     TitleFont.Charset = DEFAULT_CHARSET
@@ -32,5 +32,13 @@ object FrmGenero: TFrmGenero
     TitleFont.Height = -12
     TitleFont.Name = 'Segoe UI'
     TitleFont.Style = []
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 40
+    Top = 295
+    Width = 370
+    Height = 25
+    DataSource = DataModule1.DSGeneros
+    TabOrder = 2
   end
 end

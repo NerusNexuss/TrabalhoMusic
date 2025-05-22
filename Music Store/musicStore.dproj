@@ -140,8 +140,8 @@
             <Form>FrmArtista</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="Ufrm_genero.pas">
-            <Form>Form2</Form>
+        <DCCReference Include="Ufrmgenero.pas">
+            <Form>FrmGenero</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Base">

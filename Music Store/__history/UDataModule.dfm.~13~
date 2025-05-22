@@ -19,7 +19,7 @@ object DataModule1: TDataModule1
       'Database=C:\chinook.db'
       'LockingMode=Normal'
       'DriverID=SQLite')
-    Connected = True
+    LoginPrompt = False
     Left = 576
     Top = 24
   end

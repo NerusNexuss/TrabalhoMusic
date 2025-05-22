@@ -5,12 +5,13 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Mask, Vcl.ExtCtrls,
-  Vcl.DBCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids;
+  Vcl.DBCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids, Vcl.Buttons;
 
 type
   TFrmGenero = class(TForm)
     DBEdit1: TDBEdit;
     DBGrid1: TDBGrid;
+    DBNavigator1: TDBNavigator;
   private
     { Private declarations }
   public
@@ -24,6 +25,6 @@ implementation
 
 {$R *.dfm}
 
-uses UDataModule, Ufrm_principal;
+uses UDataModule;
 
 end.
