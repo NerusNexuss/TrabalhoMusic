@@ -17,7 +17,7 @@ object DataModule1: TDataModule1
   end
   object FDConnection: TFDConnection
     Params.Strings = (
-      'Database=C:\chinook.db'
+      'Database=C:\Program Files\banco de dados\chinook.db'
       'LockingMode=Normal'
       'DriverID=SQLite')
     Connected = True
