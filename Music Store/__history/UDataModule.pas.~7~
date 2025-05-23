@@ -28,9 +28,6 @@ type
     DSEmpregados: TDataSource;
     FDClientes: TFDTable;
     DSClientes: TDataSource;
-    DSFaturas: TDataSource;
-    FDFaturas: TFDTable;
-    FDVenderItem: TFDTable;
   private
     { Private declarations }
   public

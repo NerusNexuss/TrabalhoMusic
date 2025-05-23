@@ -1,5 +1,5 @@
 object DataModule1: TDataModule1
-  Height = 559
+  Height = 708
   Width = 640
   object FDTableAlbum: TFDTable
     IndexFieldNames = 'AlbumId'
@@ -93,7 +93,6 @@ object DataModule1: TDataModule1
     Top = 400
   end
   object FDClientes: TFDTable
-    Active = True
     IndexFieldNames = 'CustomerId'
     Connection = FDConnection
     ResourceOptions.AssignedValues = [rvEscapeExpand]
@@ -105,5 +104,26 @@ object DataModule1: TDataModule1
     DataSet = FDClientes
     Left = 120
     Top = 464
+  end
+  object DSFaturas: TDataSource
+    DataSet = FDFaturas
+    Left = 120
+    Top = 528
+  end
+  object FDFaturas: TFDTable
+    IndexFieldNames = 'InvoiceId'
+    Connection = FDConnection
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'invoices'
+    Left = 24
+    Top = 528
+  end
+  object FDVenderItem: TFDTable
+    MasterSource = DSFaturas
+    MasterFields = 'InvoiceId'
+    Connection = FDConnection
+    TableName = 'invoice_items'
+    Left = 24
+    Top = 592
   end
 end

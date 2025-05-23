@@ -10,8 +10,7 @@ uses
   UfrmTipoMidia in 'UfrmTipoMidia.pas' {FrmTipoMidia},
   UfrmEmpregados in 'UfrmEmpregados.pas' {FrmEmpregados},
   UfrmClientes in 'UfrmClientes.pas' {FrmClientes},
-  UfrmFaturas in 'UfrmFaturas.pas' {FrmFaturas},
-  UfrmVenderItem in 'UfrmVenderItem.pas' {FrmVenderItem};
+  UfrmFaturas in 'UfrmFaturas.pas' {FrmFaturas};
 
 {$R *.res}
 
@@ -27,6 +26,5 @@ begin
   Application.CreateForm(TFrmEmpregados, FrmEmpregados);
   Application.CreateForm(TFrmClientes, FrmClientes);
   Application.CreateForm(TFrmFaturas, FrmFaturas);
-  Application.CreateForm(TFrmVenderItem, FrmVenderItem);
   Application.Run;
 end.

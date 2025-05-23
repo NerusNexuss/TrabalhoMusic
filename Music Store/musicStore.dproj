@@ -156,6 +156,14 @@
             <Form>FrmClientes</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="UfrmFaturas.pas">
+            <Form>FrmFaturas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="UfrmVenderItem.pas">
+            <Form>FrmVenderItem</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
