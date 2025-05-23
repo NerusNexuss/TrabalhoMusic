@@ -31,7 +31,6 @@ type
     DSFaturas: TDataSource;
     FDFaturas: TFDTable;
     FDVenderItem: TFDTable;
-    DSFatures: TDataSource;
   private
     { Private declarations }
   public

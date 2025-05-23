@@ -126,9 +126,4 @@ object DataModule1: TDataModule1
     Left = 24
     Top = 592
   end
-  object DSFatures: TDataSource
-    DataSet = FDVenderItem
-    Left = 120
-    Top = 592
-  end
 end
