@@ -8,7 +8,8 @@ uses
   UfrmArtista in 'UfrmArtista.pas' {FrmArtista},
   Ufrmgenero in 'Ufrmgenero.pas' {FrmGenero},
   UfrmTipoMidia in 'UfrmTipoMidia.pas' {FrmTipoMidia},
-  UfrmEmpregados in 'UfrmEmpregados.pas' {Form2};
+  UfrmEmpregados in 'UfrmEmpregados.pas' {FrmEmpregados},
+  UfrmClientes in 'UfrmClientes.pas' {FrmClientes};
 
 {$R *.res}
 
@@ -21,6 +22,7 @@ begin
   Application.CreateForm(TFrmArtista, FrmArtista);
   Application.CreateForm(TFrmGenero, FrmGenero);
   Application.CreateForm(TFrmTipoMidia, FrmTipoMidia);
-  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TFrmEmpregados, FrmEmpregados);
+  Application.CreateForm(TFrmClientes, FrmClientes);
   Application.Run;
 end.

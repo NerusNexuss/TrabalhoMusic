@@ -26,6 +26,10 @@ type
     FDTipoMidia: TFDTable;
     FDEmpregados: TFDTable;
     DSEmpregados: TDataSource;
+    FDClientes: TFDTable;
+    DSClientes: TDataSource;
+    DSFaturas: TDataSource;
+    FDFaturas: TFDTable;
   private
     { Private declarations }
   public

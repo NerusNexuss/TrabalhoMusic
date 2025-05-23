@@ -1,5 +1,5 @@
 object DataModule1: TDataModule1
-  Height = 480
+  Height = 559
   Width = 640
   object FDTableAlbum: TFDTable
     IndexFieldNames = 'AlbumId'
@@ -72,12 +72,38 @@ object DataModule1: TDataModule1
     Top = 336
   end
   object FDTipoMidia: TFDTable
-    Active = True
     IndexFieldNames = 'MediaTypeId'
     Connection = FDConnection
     ResourceOptions.AssignedValues = [rvEscapeExpand]
     TableName = 'media_types'
     Left = 24
     Top = 336
+  end
+  object FDEmpregados: TFDTable
+    IndexFieldNames = 'EmployeeId'
+    Connection = FDConnection
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'employees'
+    Left = 24
+    Top = 400
+  end
+  object DSEmpregados: TDataSource
+    DataSet = FDEmpregados
+    Left = 120
+    Top = 400
+  end
+  object FDClientes: TFDTable
+    Active = True
+    IndexFieldNames = 'CustomerId'
+    Connection = FDConnection
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'customers'
+    Left = 24
+    Top = 464
+  end
+  object DSClientes: TDataSource
+    DataSet = FDClientes
+    Left = 120
+    Top = 464
   end
 end

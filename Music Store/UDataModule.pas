@@ -24,6 +24,10 @@ type
     DSGeneros: TDataSource;
     DSTipoMidia: TDataSource;
     FDTipoMidia: TFDTable;
+    FDEmpregados: TFDTable;
+    DSEmpregados: TDataSource;
+    FDClientes: TFDTable;
+    DSClientes: TDataSource;
   private
     { Private declarations }
   public

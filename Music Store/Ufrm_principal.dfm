@@ -19,6 +19,7 @@ object Form1: TForm1
       Caption = 'Cadastros'
       object Clientes1: TMenuItem
         Caption = 'Clientes'
+        OnClick = Clientes1Click
       end
       object Albuls1: TMenuItem
         Caption = #225'lbuns'
@@ -39,6 +40,10 @@ object Form1: TForm1
       object Empregados1: TMenuItem
         Caption = 'Empregados'
         OnClick = Empregados1Click
+      end
+      object Faturas1: TMenuItem
+        Caption = 'Faturas'
+        OnClick = Faturas1Click
       end
     end
   end

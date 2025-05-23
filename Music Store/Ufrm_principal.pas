@@ -15,11 +15,14 @@ type
     Artistas1: TMenuItem;
     ipoMidia1: TMenuItem;
     Empregados1: TMenuItem;
+    Faturas1: TMenuItem;
     procedure Albuls1Click(Sender: TObject);
     procedure Artistas1Click(Sender: TObject);
     procedure Genero1Click(Sender: TObject);
     procedure ipoMidia1Click(Sender: TObject);
     procedure Empregados1Click(Sender: TObject);
+    procedure Clientes1Click(Sender: TObject);
+    procedure Faturas1Click(Sender: TObject);
 
   private
     { Private declarations }
@@ -34,7 +37,8 @@ implementation
 
 {$R *.dfm}
 
-uses Ufrmalbuns, UfrmArtista, UfrmGenero, UfrmTipoMidia, UfrmEmpregados;
+uses Ufrmalbuns, UfrmArtista, UfrmGenero, UfrmTipoMidia, UfrmEmpregados,
+  UfrmClientes, UfrmFaturas;
 
 procedure TForm1.Albuls1Click(Sender: TObject);
 begin
@@ -47,9 +51,19 @@ begin
 end;
 
 
+procedure TForm1.Clientes1Click(Sender: TObject);
+begin
+  FrmClientes.ShowModal;
+end;
+
 procedure TForm1.Empregados1Click(Sender: TObject);
 begin
  FrmEmpregados.ShowModal;
+end;
+
+procedure TForm1.Faturas1Click(Sender: TObject);
+begin
+ FrmFaturas.ShowModal;
 end;
 
 procedure TForm1.Genero1Click(Sender: TObject);
