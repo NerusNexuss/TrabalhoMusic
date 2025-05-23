@@ -8,7 +8,7 @@ uses
   Vcl.DBCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids, Vcl.Buttons;
 
 type
-  TForm2 = class(TForm)
+  TFrmTipoMidia = class(TForm)
     Label1: TLabel;
     DBEdit1: TDBEdit;
     DBGrid1: TDBGrid;
@@ -20,7 +20,7 @@ type
   end;
 
 var
-  Form2: TForm2;
+  FrmTipoMidia: TFrmTipoMidia;
 
 implementation
 

@@ -1,7 +1,7 @@
-object Form2: TForm2
+object FrmTipoMidia: TFrmTipoMidia
   Left = 0
   Top = 0
-  Caption = 'Form2'
+  Caption = 'FrmTipoMidia'
   ClientHeight = 441
   ClientWidth = 624
   Color = clBtnFace

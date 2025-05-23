@@ -145,6 +145,10 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="UfrmTipoMidia.pas">
+            <Form>FrmTipoMidia</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="UfrmEmpregados.pas">
             <Form>Form2</Form>
             <FormType>dfm</FormType>
         </DCCReference>
